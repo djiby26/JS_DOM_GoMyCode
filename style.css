@@ -1,0 +1,49 @@
+/* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+} */
+
+.quantity-controls {
+  display: flex;
+  justify-content: center;
+}
+
+.quantity-controls button {
+  font-weight: 800;
+  height: 2rem;
+  width: 2rem;
+  margin: 1px;
+}
+
+.quantity-controls input {
+  text-align: center;
+  height: 2rem;
+  width: 2rem;
+  margin: 1px;
+}
+
+.quantity-number {
+  text-align: center;
+  /* width: px; */
+}
+
+th,
+td {
+  text-align: center;
+}
+
+.like-button {
+  cursor: pointer;
+  width: 2rem;
+}
+
+.delete-button {
+  fill: aqua;
+  cursor: pointer;
+  width: 2rem;
+}
